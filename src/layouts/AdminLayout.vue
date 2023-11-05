@@ -44,20 +44,40 @@ import EssentialLink from 'components/EssentialLink.vue'
 const linksList = [
   {
     title: 'Dashboard',
-    link: '/dashboard'
+    link: '/dashboard-admin'
   },
   {
-    title: 'Form Pelaporan',
-    link: '/form-laporan'
+    title: 'Akun Admin',
+    link: '/akun-admin'
+  },
+  {
+    title: 'User Active',
+    link: '/user-active'
+  },
+  {
+    title: 'User Pending',
+    link: '/user-pending'
+  },
+  {
+    title: 'SKPD',
+    link: '/skpd'
+  },
+  {
+    title: 'Jenis Laporan',
+    link: '/jenis-laporan'
   },
   {
     title: 'List Laporan',
-    link: '/list-laporan'
+    link: '/laporan-admin'
+  },
+  {
+    title: 'Keluar',
+    link: '/'
   },
 ]
 
 export default defineComponent({
-  name: 'MainLayout',
+  name: 'AdminLayout',
 
   components: {
     EssentialLink

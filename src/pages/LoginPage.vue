@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     loginFunction() {
-      this.$router.push('/dashboard')
+      this.$router.push('/dashboard-admin')
       // this.message= 'Test...'
       // setTimeout(() => {
       //   this.message= ''
