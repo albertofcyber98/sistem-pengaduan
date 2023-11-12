@@ -6,6 +6,7 @@
 
 <script>
 import axios from "axios";
+import { endpoints } from "src/constanta/endpoint";
 export default {
   data() {
     return {
@@ -25,7 +26,7 @@ export default {
   },
   created() {
     axios
-      .get("https://wbspangkep.my.id/api/get_all_skpd.php")
+      .get(`${endpoints}get_all_skpd.php`)
       .then((response) => {
         console.log(response);
         this.rows = response.data;

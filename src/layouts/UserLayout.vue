@@ -54,6 +54,10 @@ const linksList = [
     title: 'List Laporan',
     link: '/laporan-user'
   },
+  {
+    title: 'Keluar',
+    link: '/'
+  },
 ]
 
 export default defineComponent({
